@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 24px;
+        }
+        fieldset {
+            width: 500px;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <h1>데이터 일치여부 확인</h1>
+
+    <fieldset>
+        <legend>비교 데이터 입력</legend>
+        <input type="text" id="insData" size="10">
+        <button type="button">확인</button>
+    </fieldset>
+
+    <fieldset id="resArea">
+        <legend>비교 결과 확인</legend>
+        <span id="chkPattern">패턴 : </span>
+        <br>
+        <span id="res">패턴 비교 결과 : </span>
+    </fieldset>
+</body>
+</html>
